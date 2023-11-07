@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "05fa863f-aeb0-4712-bad1-15ed972e50e7",
+		"name": "collection 20 file upload",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28783549"
+	},
+	"item": [
+		{
+			"name": "file upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/atulk/OneDrive/Desktop/ATUL KUMAR (SG20810)SYNOPSIS ^.pdf"
+						},
+						{
+							"key": "data",
+							"value": "\"nam",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://httpbin.org/post",
+					"protocol": "https",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
